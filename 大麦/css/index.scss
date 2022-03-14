@@ -1,0 +1,208 @@
+#wrap {
+    width: 100%;
+    #header{
+        width: 100%;
+        .headtop{
+            width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 15px 0px;
+            .logo{
+                width: 100px;
+                float: left;
+                img{
+                    width: 100%;
+                }
+            }
+            .list {
+                float: left;
+                ul {
+                    overflow: hidden;
+                    li{
+                        float: left;
+                        margin: 0px 10px;
+                        &:first-child a{
+                            margin-left: 50px;
+                            margin-right: 20px;
+                        }
+                        a{
+                            color: #000;
+                            line-height: 45px;
+                            
+                            &:hover{
+                                color: rgb(243, 82, 106);
+                            }
+                        }
+                    }
+                }
+            }
+            .seach{
+                float: left;
+                margin-left: 320px;
+                position: relative;
+                .sad {
+                    position: absolute;
+                    top: 12px;
+                    left: 15px;
+                    width: 15px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                input{
+                    width: 300px;
+                    float: left;
+                    height: 40px;
+                    border: 0;
+                    outline: none;
+                    padding-left: 40px;
+                    border-radius: 30px;
+                    background-color: rgb(236, 234, 234);
+                }
+                a {
+                    display: block;
+                    float: right;
+                    width: 80px;
+                    height: 42px;
+                    margin-left: -35px;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 40px;
+                    border-top-right-radius: 30px;
+                    border-bottom-right-radius: 30px;
+                    background-color: #FF1268;
+                }
+            }
+            .sign{
+                float: left;
+                margin-top: 10px;
+                .promis{
+                    float: left;
+                    margin: 0 10px;
+                    .ckc{
+                        width: 25px;
+                        float: left;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    a{
+                        color: #000;
+                        line-height: 23px;
+                    }
+                }
+            }
+
+        }
+    }
+    #main{
+        width: 100%;
+        .conter {
+            width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+            .banner {
+                width: 1200px;
+                img{
+                    width: 100%;
+                }
+            }
+            .bottom{
+                box-sizing: border-box;
+                width: 1200px;
+                height: 118px;
+                padding: 20px 0px;
+                border-radius: 10px;
+                border: 1px solid #ccc;
+                margin-top: 20px;
+                ul{
+                    overflow: hidden;
+                    li{
+                        float: left;
+                        margin: 0px 35px;
+                        &:nth-child(2) i {
+                            background-position: 0px -64px;
+                        }
+                        &:nth-child(3) i {
+                            background-position: 0px -120px;
+                        }
+                        i{
+                            display: block;
+                            width: 47px;
+                            height: 47px;
+                            background-size: 100% auto;
+                            background-image: url(https://img.alicdn.com/tfs/TB1U9R8GY9YBuNjy0FgXXcxcXXa-146-1822.png);
+                        }
+                        a{
+                            color: #000;
+                            margin-top: 5px;
+                            &:hover{
+                                color: #FF1268;
+                            }
+                        }
+                    }
+                }
+            }
+            .mushp{
+                box-sizing: border-box;
+                width: 1200px;
+                padding: 20px;
+                border-radius: 10px;
+                border: 1px solid #ccc;
+                margin-top: 20px;
+                height: 450px;
+                .font{
+                    padding: 10px 0px;
+                    height: 22px;
+                    h2{
+                        float: left;
+                        font-size: 20px;
+                    }
+                    h3{
+                        float: right;
+                    }
+                }
+                .left {
+                    width: 280px;
+                    float: left;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .right {
+                    width: 850px;
+                    float: right;
+                    dl {
+                        width: 273px;
+                        float: left;
+                        // margin-top: 10px;
+                        dt{
+                            width: 120px;
+                            float: left;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        dd {
+                            float: right;
+                            width: 137px;
+                            padding-right: 10px;
+                            h2 {
+                                color: rgb(119, 115, 115);
+                            }
+                            h3 {
+                                color: rgb(119, 115, 115);
+                                margin-top: 25px;
+                                font-size: 12px;
+                            }
+                            h4 {
+                                color: #FF1268;
+                                margin-top: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
